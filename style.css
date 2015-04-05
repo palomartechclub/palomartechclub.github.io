@@ -1,10 +1,20 @@
+header, section, footer, aside, nav, article, hgroup{
+	display: block;
+}
 body {
 	background-color: green
 }
-
 #decor{
- 		 
 	color: yellow;
 	background: blue;
-        }
-
+}
+#navigation li{
+	color: white;
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+}
+#mainSection{
+	float: left;
+	width: 220px;
+}
