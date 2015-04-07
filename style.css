@@ -1,9 +1,6 @@
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
 }
-body {
-	background-color: green
-}
 #decor{
 	color: yellow;
 	background: blue;
