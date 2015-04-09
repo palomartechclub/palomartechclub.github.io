@@ -17,8 +17,11 @@ a {
 
 #header {
 	text-align: center;
-	background-color: #2A504B;
-  font-family: 'Julius Sans One', sans-serif;
+	background-color: #000000;
+  	font-family: 'Julius Sans One', sans-serif;
+  	image-align: center;
+  	margin: 20;
+     	padding: 10;
 
 	-webkit-border-top-left-radius: 20px;
 	-webkit-border-top-right-radius: 20px;
