@@ -1,6 +1,7 @@
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
 	color: white;
+	background-color: white;
 }
 
 body {
@@ -17,9 +18,9 @@ a {
 
 #header {
 	text-align: center;
-	background-color: #000000;
+	background-color: white;
+	background-align: white;
   	font-family: 'Julius Sans One', sans-serif;
-  	image-align: center;
   	margin: 20;
      	padding: 10;
 
@@ -29,8 +30,6 @@ a {
 	-moz-border-radius-topright: 20px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
-
-
 }
 
 #navigation {
