@@ -1,0 +1,17 @@
+{
+  "name": "PalomarTechClub",
+  "version": "0.0.1",
+  "description": "Polymer Test",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#0.5"
+  }
+}
