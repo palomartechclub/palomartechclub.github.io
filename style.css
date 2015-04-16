@@ -1,7 +1,6 @@
 header, section, footer, aside, nav, article, hgroup{
 	display: block;
 	color: white;
-	background-color: white;
 }
 
 body {
@@ -65,20 +64,19 @@ header {
 	padding: 0px;
 }
 
-#mainSection {
+.mainSection {
 	background-color: #122624;
-	width: 78%;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 1%;
 	font-family: 'PT Sans Narrow', sans-serif;
 
-	-webkit-border-top-left-radius: 50px;
-	-webkit-border-top-right-radius: 50px;
-	-moz-border-radius-topleft: 50px;
-	-moz-border-radius-topright: 50px;
-	border-top-left-radius: 50px;
-	border-top-right-radius: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10px;
+	padding: 1%;
+
+	width: 78%;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
 }
 
 #mainSection h2 {
