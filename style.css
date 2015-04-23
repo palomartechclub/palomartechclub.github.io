@@ -83,6 +83,10 @@ header {
 	text-align: center;
 }
 
+#copyright {
+	background-color: #2A504B;
+	text-align: right;
+}
 
 /*Generated Color Scheme
 .color-primary-0 { color: #122624 }
