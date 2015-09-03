@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Palomar Tech Club</title>
+
+		<link rel="stylesheet" type="text/css" href="../style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+
+	</head>
+
+	<body>
+
+		<header>
+			<img src="/img\logo1.png" />
+	  </header>
+
+		<nav id="navigation">
+			<ul>
+				<li><a href="..">Home</a></li>
+				<li style="background-color: #5E534c;"><a href="../about">About</a></li>
+				<li><a href="../activities">Activities</a></li>
+			</ul>
+		</nav>
+		<br>
+		About us
+			The Palomar Tech Club provides Palomar College students with activities. We are composed of students and a very knowledgeable staff member.
+			No experience is needed.
+			Some current activites we are working on include soldering website development, computer disassembly, and others.
+		<br>
+		<polymer-element name="age-slider">
+  <template>
+    This is <b>{{owner}}</b>'s age-slider.
+    <b>{{name}}</b> lets me borrow it.
+    He likes the color <span style="color: {{color}}">{{color}}</span>.
+    I am <b>{{age}}</b> years old.
+    <p><label for="ageInput">Age:</label>
+    <input id="ageInput" type="range"
+           value="{{age}}">
+    <label for="nameInput">Name:</label>
+    <input id="nameInput" value="{{name}}"
+           placeholder="Enter name..."></p>
+  </template>
+  <script>
+    Polymer({
+      age: 25,
+      name: "Daniel",
+      color: "red",
+      owner: "Eric",
+      nameChanged: function() {
+        if (this.name) {
+          // Ensure name is capitalized
+          this.name = this.name[0].toUpperCase() +
+                      this.name.slice(1);
+        }
+      }
+    });
+</script>
+</polymer-element>
+
+	</body>
+</html>
