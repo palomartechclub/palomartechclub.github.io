@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Palomar Tech Club</title>
+		<link href='http://fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="palomar.js"></script>
+
+		<script src="webcomponents.js"></script>
+    <link rel="import" href="age-slider.html">
+	</head>
+	<body>
+
+		<header>
+			<img src="img\logo1.png" />
+	  	</header>
+		<nav id="navigation">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about">About</a></li>
+				<li><a href="activities">Activities</a>
+				<li><a href="schedule">Schedule</a></li>
+			</ul>
+		</nav>
+		<section class="mainSection">
+			<h2>Palomar College Tech Club</h2>
+			<div>
+				<p>The Palomar College Tech Club provides Palomar college students with activities . We are composed of students and a staff member</p>
+			</div>
+			<div>
+				<p>This is some more content</p>
+			</div>
+			<div>
+				<p>Here is something else</p>
+				<age-slider></age-slider>
+			</div>
+		</section>
+			<section class="mainSection">
+				<div>
+				<p>This is some skjdfhbgkjdcontent</p>
+			</div>
+			<div>
+				<p>This is some more content</p>
+			</div>
+			<div>
+				<p>Here is something else</p>
+				<age-slider></age-slider>
+			</div>
+			</section>
+			<section class="mainSection">
+				<h2>Section Title</h2>
+				<div>
+					<p>This is some content</p>
+				</div>
+				<div>
+					<p>This is some more content</p>
+				</div>
+				<div>
+					<p>Here is something else</p>
+				</div>
+			</section>
+		</section>
+		<footer id="copyright">
+			Copyright Palomar Tech Club
+		</footer>
+	</body>
+</html>
